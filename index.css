@@ -1,0 +1,19 @@
+.levi{margin:0;padding:40px 35px 0 35px;display:-webkit-box;display:-ms-flexbox;display:flex}
+.levi.dark-bg{background-color: #111111;}
+.levi__inner{margin-bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-ms-flex-preferred-size:100%;flex-basis:100%}
+.levi__content{margin:0;padding:0 0 30px 0;min-width:200px}
+.levi__content--bubble{color:white;margin:0;padding:10px;background-image:url("http://demo10vtgtr.wpengine.com/wp-content/uploads/2022/11/bubble.svg");background-position:top center;background-repeat:no-repeat;background-size:contain;font-size:12px;font-weight:500;line-height:19.08px;min-height:125px}
+.levi__content--disclaimer{padding:0 5px 0 30px;position:relative;font-size:11px;color:rgba(255,255,255,0.6);line-height:14.74px}
+.levi__content--disclaimer:before{content:url("http://demo10vtgtr.wpengine.com/wp-content/uploads/2022/11/expresslane.svg");margin:0;padding:0;width:31px;height:28px;position:absolute;top:-5px;left:-10px}
+.levi__btn{padding:0 0 0 10px;position:relative;z-index:2}
+.levi__btn:hover img{opacity:.50;-webkit-transition:opacity 250ms ease-in-out;transition:opacity 250ms ease-in-out}
+.levi__btn:hover .levi__btn--boop{z-index:3}
+.levi__btn img{max-width:250px;opacity:.50;-webkit-transition:opacity 250ms ease-in-out;transition:opacity 250ms ease-in-out;}
+.levi__btn--boop{margin:0;padding:.25rem 16px;position:absolute;top:20%;left:50%;font-weight:500;border-width:2px;border-style:solid;z-index:-1;-webkit-transform:translate(-50%,50%) rotate(-10deg);transform:translate(-50%,50%) rotate(-10deg);-webkit-transition:background-color 250ms ease-in-out,color 250ms ease-in-out;transition:background-color 250ms ease-in-out,color 250ms ease-in-out}
+.levi__btn--boop:hover{color:#000;-webkit-transition:background-color 250ms ease-in-out,color 250ms ease-in-out;transition:background-color 250ms ease-in-out,color 250ms ease-in-out}
+@media(min-width:375px){.levi__content--bubble{font-size:15px}}
+@media(min-width:414px){.levi__content{max-width:200px}.levi__btn--boop{top:30%}}
+@media(min-width:600px){.levi__content--bubble{font-size:16px}}
+@media(min-width:768px){.levi__btn--boop{padding:.5rem 32px}}
+@media(min-width:1024px){.levi{padding:40px 40px 0 40px}.levi__inner{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-ms-flex-preferred-size:50%;flex-basis:50%}.levi__content{padding:0;max-width:240px;-ms-flex-preferred-size:50%;flex-basis:50%}.levi__content--bubble{padding:10px}.levi__btn{padding:0 0 0 40px}.levi__btn img{opacity:1}}
+@media(min-width:1280px){.levi__content--bubble{margin:0 0 24px 0;padding:18px;font-size:18px}}
